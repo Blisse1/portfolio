@@ -1,0 +1,40 @@
+body {
+    background: lightgray;
+    width: auto;
+    padding-top: 10px;
+}
+p {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+}
+main {
+    display: inline-block;
+    position: relative;
+    top:-340px ;
+    left: 900px;
+    width: 400px;
+}
+header > span {
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+ul {
+    height: 300px;
+    margin-top: 50px;
+    width: 100px;
+    position: relative;
+    justify-content: space-between;
+    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+}
+.name {
+    position: relative;
+    top: -30px;
+}
+li > span {
+    font-size: 3rem;
+}
+

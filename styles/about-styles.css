@@ -1,0 +1,26 @@
+body {
+    margin-top: 37px;
+}
+ul {
+    height: 300px;
+    margin-top: 50px;
+    width: 100px;
+    position: relative;
+    justify-content: space-between;
+    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+}
+.name {
+    position: relative;
+    top: -30px;
+}
+li > span {
+    font-size: 3rem;
+}
+.about-me {
+    height: 200px;
+}
+.projects, .tech-stack {
+    height: 150px;
+}
