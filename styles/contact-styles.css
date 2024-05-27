@@ -1,0 +1,52 @@
+/* Header Styles */
+
+ul {
+    height: 300px;
+    margin-top: 50px;
+    width: 100px;
+    position: relative;
+    justify-content: space-between;
+    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.name {
+    position: relative;
+    top: -30px;
+}
+
+li > span {
+    font-size: 3rem;
+}
+
+header > span {
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+/* General Styles */
+
+label, 
+button {
+    display: block;
+}
+
+form, 
+.logos {
+    width: 350px;
+}
+
+main {
+    width: 350px;
+    margin-left: 220px;
+    margin-top: -330px;
+}
+
+input[id="name"] {
+   margin-bottom: 15px; 
+}
+
+form > label {
+    padding-bottom: 5px;
+}

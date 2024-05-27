@@ -1,28 +1,8 @@
-body {
-    background: lightgray;
-    width: auto;
-    padding-top: 10px;
-}
-p {
-    display: inline-block;
-    border: 1px solid black;
-    padding: 10px;
-}
-main {
-    display: inline-block;
-    position: relative;
-    top:-340px ;
-    left: 900px;
-    width: 400px;
-}
-header > span {
-    margin-top: 20px;
-    margin-left: 220px;
-}
-
+/* Header styles */
 ul {
     height: 300px;
     margin-top: 50px;
+    /* border: 1px solid black; */
     width: 100px;
     position: relative;
     justify-content: space-between;
@@ -30,11 +10,48 @@ ul {
     flex-direction: column;
     list-style: none;
 }
+nav {
+    border: 1px solid black;
+    width: 150px;
+    position: relative;
+    margin-top: 100px;
+}
+
 .name {
     position: relative;
     top: -30px;
-}
-li > span {
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
+li > span {
+    font-size: 4rem;
+}
+
+/* General styles */
+body {
+    margin: 21px;
+    font-family: "Open-Sans", sans-serif;
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(360deg, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(360deg, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+li,
+li > a {
+    color: white;
+}
+p {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+main {
+    display: inline-block;
+    position: relative;
+    top: -400px;
+    left: 900px;
+    width: 400px;
+    border: 1px solid black;
+}

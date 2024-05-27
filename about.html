@@ -4,18 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/about-styles.css">
-        <style>
-            body {
-                background: lightgray;
-            }
-            .container, .container > span, .container > div {
-                border: 1px solid black;
-            }
-            .container {
-                margin-left: 160px;
-                margin-top: -350px;
-            }
-        </style>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -32,11 +24,11 @@
         <main>
             <div class="container">
                 <span>About</span>
-                <div class="projects">
-                    <h1>About My Projects</h1>
+                <section class="projects">
+                    <h2>About My Projects</h2>
                     <!-- Here my projects-->
-                </div>
-                <div class="about-me">
+                </section>
+                <section class="about-me">
                     <h2>About Me</h2>
                     <p>
                     Tengo hambre voraz por aprender y creo que
@@ -47,17 +39,50 @@
                     les alivie una necesidad, y que sean el 
                     punto central del desarrollo. 
                     </p>
-                </div>
-                <div class="tech-stack">
+                </section>
+                <section class="tech-stack">
                     <h2>About My Tech Stack</h2>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>Angular</span>
-                    <span>Node.js</span>
-                    <span>Express.js</span>
-                    <span>MongoDB</span>
-                </div>
+                    <div class="logos">
+                        <img 
+                        src="images/HTML5_Logo.svg" 
+                        title="HTML Logo"
+                        alt="HTML logo, a shield-like shape with an orange top half and white bottom half"
+                        >
+                        <img 
+                        src="images/CSS3_logo_and_wordmark.svg" 
+                        title="CSS Logo"
+                        alt="CSS logo, a shield-like shape with a blue top half and white bottom half"
+                        >
+                        <img 
+                        src="images/JavaScript-logo.png" 
+                        title="JavaScript Logo"
+                        alt="JavaScript logo, a yellow square with the letters 'JS' in black"
+                        >
+                        <img 
+                        src="images/Angular_full_color_logo.svg" 
+                        title="Angular Logo"
+                        alt="Angular logo, a red shield with a white letter 'A' in the center"
+                        >
+                        <img 
+                        src="images/nodejsStackedDark.svg" 
+                        title="Node.js Logo"
+                        alt="Node.js logo, featuring the text 'nodejs' in lowercase letters
+                        and a green hexagon with the letters 'js' inside"
+                        >
+                        <img 
+                        src="images/icons8-express-js-100.png" 
+                        title="Express.js Logo"
+                        alt="Express logo, simple black text on a white background"
+                        class="express" 
+                        >
+                        <img 
+                        src="images/MongoDB_Logomark_ForestGreen.svg" 
+                        title="MongoDB Logo"
+                        class="mongodb" 
+                        alt="MongoDB logo, featuring a green leaf"
+                        >
+                    </div>
+                </section>
             </div>
         </main>
     </body>

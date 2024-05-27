@@ -1,9 +1,8 @@
-body {
-    margin-top: 37px;
-}
+/* Header Styles */
 ul {
     height: 300px;
     margin-top: 50px;
+    /* border: 1px solid black; */
     width: 100px;
     position: relative;
     justify-content: space-between;
@@ -11,16 +10,58 @@ ul {
     flex-direction: column;
     list-style: none;
 }
+nav {
+    /* border: 1px solid black; */
+    width: 150px;
+    position: relative;
+    margin-top: 100px;
+}
+
 .name {
     position: relative;
     top: -30px;
 }
+
 li > span {
     font-size: 3rem;
 }
+
+/* General Styles */
+body {
+    margin: 21px;
+    font-family: "Open-Sans", sans-serif;
+}
+main {
+    margin-top: -430px;
+    padding-bottom: 60px;
+    padding-left: 200px;
+    border: 1px solid black;
+}
+/* .container { */
+/*     margin-left: 220px; */
+/*     width: 500px; */
+/*     border: 1px solid red; */
+/* } */
+
 .about-me {
     height: 200px;
 }
-.projects, .tech-stack {
+.projects, 
+.tech-stack {
     height: 150px;
+}
+
+img {
+   height: 100px; 
+   width: 100px; 
+}
+
+.logos {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+h2 {
+    padding-bottom: 15px;
+    font-weight: 700;
 }
