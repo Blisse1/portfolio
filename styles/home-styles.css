@@ -1,21 +1,20 @@
 /* Header styles */
+header {
+    width: 150px;
+    /* margin-top: 20px; */
+    /* padding-top: 40px; */
+}
+
 ul {
     height: 300px;
-    margin-top: 50px;
-    /* border: 1px solid black; */
-    width: 100px;
-    position: relative;
+    width: 150px;
+    margin-top: 130px;
     justify-content: space-between;
     display: inline-flex;
     flex-direction: column;
     list-style: none;
 }
-nav {
-    border: 1px solid black;
-    width: 150px;
-    position: relative;
-    margin-top: 100px;
-}
+
 
 .name {
     position: relative;
@@ -25,33 +24,38 @@ nav {
 
 li > span {
     font-size: 4rem;
+    margin-left: -4px;
 }
 
-/* General styles */
+/* General Styles */
 body {
     margin: 21px;
     font-family: "Open-Sans", sans-serif;
-    background: #c94b4b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(360deg, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(360deg, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    overflow: hidden;
+}
+
+a {
     color: white;
 }
-li,
-li > a {
-    color: white;
-}
+
 p {
     display: inline-block;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 main {
     display: inline-block;
     position: relative;
-    top: -400px;
-    left: 900px;
+    top: -360px;
+    left: 500px;
     width: 400px;
-    border: 1px solid black;
+}
+.italicize {
+    font-style: italic;
 }
