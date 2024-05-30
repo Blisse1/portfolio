@@ -1,20 +1,20 @@
 /* Header Styles */
 ul {
     height: 180px;
-    /* border: 1px solid black; */
     width: 150px;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
     list-style: none;
 }
+
 .container {
     margin-left: 200px;
     width: 80%;
     margin-top: -440px;
 }
+
 nav {
-    /* border: 1px solid black; */
     margin-top: 160px;
     width: 150px;
 }
@@ -36,10 +36,12 @@ body {
     margin: 21px;
     background: #C33764;  /* fallback for old browsers */
     background-image: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-    background-repeat: repeat;
     background-image: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-attachment: fixed; /* Ensures the background doesn't scroll with the content */
     font-family: "Open-Sans", sans-serif;
 }
+
 a {
     color: white;
 }
@@ -55,16 +57,13 @@ a {
 }
 
 .tech-stack {
-    /* display: block; */
     margin-top: 80px;
-    /* margin-bottom: 20px; */
     width: 100%;
-    /* border: 1px solid black; */
 }
 
 img {
-   height: 100px; 
-   width: 100px; 
+    height: 100px; 
+    width: 100px; 
 }
 
 .logos {
@@ -88,6 +87,7 @@ p {
      margin-top: 150px;
  }
 }
+
 @media (max-width: 683px) {
  .container {
      margin-top: 50px;
@@ -96,7 +96,6 @@ p {
  nav {
      margin-left: 50px;
      margin-top: 60px;
-     border: 1px solid red;
      width: 300px;
  }
  .nameAndProfession {
@@ -109,7 +108,6 @@ p {
  .about-me {
      width: 600px;
      height: 300px;
-     /* border: 1px solid black; */
  }
 
  ul {
@@ -125,6 +123,7 @@ p {
      height: 300px;
  }
 }
+
 @media (max-width: 375px){
    ul {
        width: 90vw;
@@ -136,3 +135,4 @@ p {
        width: 300px;
    }
 }
+
