@@ -41,6 +41,8 @@ body {
     background-image: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-attachment: fixed; /* Ensures the background doesn't scroll with the content */
     font-family: "Open-Sans", sans-serif;
 }
 a {
