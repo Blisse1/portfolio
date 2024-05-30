@@ -124,7 +124,7 @@ p {
      height: 300px;
  }
 }
-@media (max-width: 390px){
+@media (width <= 390px){
    ul {
        width: 90vw;
    } 
