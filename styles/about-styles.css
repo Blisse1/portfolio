@@ -1,54 +1,52 @@
 /* Header Styles */
 ul {
-    height: 300px;
-    margin-top: 50px;
-    /* border: 1px solid black; */
-    width: 100px;
-    position: relative;
+    height: 180px;
+    border: 1px solid black;
+    width: 150px;
     justify-content: space-between;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     list-style: none;
 }
+.container {
+    margin-left: 200px;
+    width: 80%;
+    margin-top: -440px;
+}
 nav {
     /* border: 1px solid black; */
+    margin-top: 160px;
     width: 150px;
-    position: relative;
-    margin-top: 100px;
 }
 
 .name {
-    position: relative;
-    top: -30px;
+    font-size: 4rem;
 }
 
-li > span {
-    font-size: 4rem;
-    margin-left: -4px;
+.nameAndProfession {
+    margin-top: -20px;
+    padding-bottom: 30px;
+    margin-left: 30px;
 }
 
 /* General Styles */
 body {
     color: white;
+    overflow: hidden;
     margin: 21px;
     background: #C33764;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: "Open-Sans", sans-serif;
 }
 a {
     color: white;
 }
-main {
-    margin-top: -400px;
-    padding-left: 220px;
-    height: 100%;
-    width: 100%;
-}
 
 .about-me {
     height: 200px;
-    width: 70%;
+    width: 90%;
 }
 
 .projects, 
@@ -57,8 +55,11 @@ main {
 }
 
 .tech-stack {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    /* display: block; */
+    margin-top: 80px;
+    /* margin-bottom: 20px; */
+    width: 100%;
+    border: 1px solid black;
 }
 
 img {
@@ -79,5 +80,49 @@ h2 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
+
+@media (max-width: 832px) {
+ .tech-stack {
+     margin-top: 150px;
+ }
+}
+@media (max-width: 683px) {
+ .container {
+     margin-top: 50px;
+     margin-left: 10px;
+ }
+ nav {
+     margin-left: 50px;
+     margin-top: 60px;
+     border: 1px solid red;
+     width: 300px;
+ }
+ .nameAndProfession {
+    margin-left: 200px; 
+    margin-top: 20px; 
+ }
+ .profession {
+     margin-left: 30px;
+ }
+ .about-me {
+     width: 600px;
+     height: 300px;
+     border: 1px solid black;
+ }
+
+ ul {
+     font-size: 1.5rem;
+     flex-direction: row;
+     padding-left: 0px;
+     justify-content: space-between;
+     height: 30px;
+     width: 500px;
+ }
+ .tech-stack {
+     width: 600px;
+     height: 300px;
+ }
+}
+

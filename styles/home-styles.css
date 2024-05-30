@@ -1,41 +1,48 @@
 /* Header styles */
-header {
-    width: 150px;
-    /* margin-top: 20px; */
-    /* padding-top: 40px; */
-}
-
 ul {
-    height: 300px;
+    height: 180px;
+    border: 1px solid black;
     width: 150px;
-    margin-top: 130px;
     justify-content: space-between;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     list-style: none;
 }
-
-
-.name {
-    position: relative;
-    top: -30px;
-    font-size: 1rem;
+nav {
+    /* border: 1px solid black; */
+    margin-top: 0px;
+    margin-left: 5px;
+    width: 150px;
+}
+.container {
+    margin-top: -50px;
 }
 
-li > span {
+.name {
     font-size: 4rem;
-    margin-left: -4px;
+}
+
+.nameAndProfession {
+    margin-top: 120px;
+    border: 1px solid black;
+    display: inline-block;
+    padding-bottom: 30px;
+    margin-left: 30px;
 }
 
 /* General Styles */
 body {
-    margin: 21px;
-    font-family: "Open-Sans", sans-serif;
-    background: #C33764;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     overflow: hidden;
+    margin: 21px;
+    background: #C33764;  /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Open-Sans", sans-serif;
+}
+a {
+    color: white;
 }
 
 a {
@@ -58,4 +65,7 @@ main {
 }
 .italicize {
     font-style: italic;
+}
+.linksNotice {
+    font-size: 0.8rem;
 }
