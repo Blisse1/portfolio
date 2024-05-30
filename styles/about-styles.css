@@ -32,9 +32,6 @@ nav {
 /* General Styles */
 body {
     color: white;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
     margin: 21px;
     background: #C33764;  /* fallback for old browsers */
     background-image: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
@@ -127,4 +124,14 @@ p {
      height: 300px;
  }
 }
-
+@media (max-width: 390px){
+   ul {
+       width: 90vw;
+   } 
+   nav {
+       margin-left: -20px;
+   }
+   .about-me, .tech-stack {
+       width: 300px;
+   }
+}
