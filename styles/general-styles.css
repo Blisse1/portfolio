@@ -1,0 +1,39 @@
+/* General Styles */
+body {
+    display: grid;
+    font-family: "Open-Sans", sans-serif;
+    grid-template-columns: 0.5fr 2fr;
+}
+header, main{
+    background-color: lightblue;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+nav {
+    width: 30%;
+    margin-top: 270px;
+    margin-left: 50px;
+}
+ul {
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.nameAndProfession {
+    /* border: 1px solid black; */ 
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.name {
+    font-size: 4rem;
+    margin-left: -4px;
+}
+/* */
+
