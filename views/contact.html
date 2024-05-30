@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-        <link rel="stylesheet" href="../styles/contact-styles.css">
+        <link rel="stylesheet" href="../styles/general-styles.css">
         <link rel="stylesheet" href="../styles/reset.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,31 +13,21 @@
     </head>
     <body>
         <header>
+                <section class="nameAndProfession">
+                    <span class="name">Bliss</span><br>
+                    <span class="profession">Developer</span> 
+                </section>
             <nav>
                 <ul>
-                    <li class="name"><span>Bliss</span><br>Developer</li> 
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a>Contact</a></li>
+                    <li>Contact</li>
                     <li><a href="resume.html">Resume</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <form id="contactForm" method="post">
-               <label for="name">Name: </label> 
-               <input type="text" id="name" required autocomplete="name" name="name">
-               <label for="email">Email: </label> 
-               <input type="email" id="email" required autocomplete="email">
-               <label for="message">Message: </label> 
-               <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-               <button type="submit">Send</button>
-            </form>
-            <div class="logos">
-                <a href="home.html">
-                    <img src="../images/github-mark.svg" width="50px" />
-                </a>
-            </div>
+            Forms
         </main>
     </body>
 </html>

@@ -1,75 +1,7 @@
-/* Header styles */
-ul {
-    height: 180px;
-    /* border: 1px solid black; */
-    width: 150px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-nav {
-    /* border: 1px solid black; */
-    margin-top: 0px;
-    margin-left: 5px;
-    width: 150px;
-}
 .container {
-    margin-top: -50px;
-}
-
-.name {
-    font-size: 4rem;
-}
-
-.nameAndProfession {
-    margin-top: 120px;
+    margin-top: 130px;
+    /* margin-left: 150px; */
+    width: 80%;
+    font-size: 1.5rem;
     /* border: 1px solid black; */
-    display: inline-block;
-    padding-bottom: 30px;
-    margin-left: 30px;
-}
-
-/* General Styles */
-body {
-    color: white;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
-    margin: 21px;
-    background: #C33764;  /* fallback for old browsers */
-    background-image: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-    background-repeat: no-repeat;
-    background-image: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover; /* Ensure the background covers the entire container */
-    background-attachment: fixed; /* Ensures the background doesn't scroll with the content */
-    font-family: "Open-Sans", sans-serif;
-}
-a {
-    color: white;
-}
-
-a {
-    color: white;
-}
-
-p {
-    display: inline-block;
-    /* border: 1px solid black; */
-    padding: 10px;
-    font-size: 1.4rem;
-}
-
-main {
-    display: inline-block;
-    position: relative;
-    top: -360px;
-    left: 500px;
-    width: 400px;
-}
-.italicize {
-    font-style: italic;
-}
-.linksNotice {
-    font-size: 0.8rem;
 }
