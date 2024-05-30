@@ -1,7 +1,7 @@
 /* Header Styles */
 ul {
     height: 180px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 150px;
     justify-content: space-between;
     display: flex;
@@ -32,6 +32,7 @@ nav {
 /* General Styles */
 body {
     color: white;
+    overflow: hidden;
     margin: 21px;
     background: #C33764;  /* fallback for old browsers */
     background-image: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
@@ -58,7 +59,7 @@ a {
     margin-top: 80px;
     /* margin-bottom: 20px; */
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 img {
@@ -108,7 +109,7 @@ p {
  .about-me {
      width: 600px;
      height: 300px;
-     border: 1px solid black;
+     /* border: 1px solid black; */
  }
 
  ul {
@@ -124,7 +125,7 @@ p {
      height: 300px;
  }
 }
-@media (width <= 390px){
+@media (max-width: 375px){
    ul {
        width: 90vw;
    } 
